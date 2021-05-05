@@ -1,0 +1,30 @@
+08-11-2020 15:26:06.130 [main] INFO  c.l.c.s.LearnCamelSpringApplication.logStarting - Starting LearnCamelSpringApplication on DESKTOP-JHI0N3K with PID 3616 (C:\Users\Abdur\Desktop\Development\eclipse-workspace\learn-camel-spring\target\classes started by Abdur in C:\Users\Abdur\Desktop\Development\eclipse-workspace\learn-camel-spring)
+08-11-2020 15:26:06.201 [main] INFO  c.l.c.s.LearnCamelSpringApplication.logStartupProfileInfo - The following profiles are active: dev
+08-11-2020 15:26:09.269 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+08-11-2020 15:26:09.294 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+08-11-2020 15:26:09.294 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+08-11-2020 15:26:09.296 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.38]
+08-11-2020 15:26:09.604 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+08-11-2020 15:26:09.612 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3254 ms
+08-11-2020 15:26:10.057 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+08-11-2020 15:26:10.462 [main] INFO  o.a.camel.support.LRUCacheFactory.createLRUCacheFactory - Detected and using LRUCacheFactory: camel-caffeine-lrucache
+08-11-2020 15:26:11.164 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+08-11-2020 15:26:11.211 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+08-11-2020 15:26:11.211 [main] INFO  c.l.c.spring.routes.CamelSimpleRoute.configure - Camel route started....
+08-11-2020 15:26:11.291 [main] INFO  o.a.c.s.b.SpringBootRoutesCollector.collectXmlRoutesFromDirectory - Loading additional Camel XML routes from: classpath:camel/*.xml
+08-11-2020 15:26:11.296 [main] INFO  o.a.c.s.b.SpringBootRoutesCollector.collectXmlRouteTemplatesFromDirectory - Loading additional Camel XML route templates from: classpath:camel-template/*.xml
+08-11-2020 15:26:11.296 [main] INFO  o.a.c.s.b.SpringBootRoutesCollector.collectXmlRestsFromDirectory - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+08-11-2020 15:26:11.539 [main] INFO  o.a.c.i.engine.AbstractCamelContext.doStartContext - Apache Camel 3.5.0 (camel-1) is starting
+08-11-2020 15:26:11.542 [main] INFO  o.a.c.i.engine.AbstractCamelContext.doStartCamel - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+08-11-2020 15:26:11.543 [main] INFO  o.a.c.i.engine.AbstractCamelContext.doStartCamel - Using HealthCheck: camel-health
+08-11-2020 15:26:11.558 [main] INFO  o.a.c.s.b.CamelSpringBootApplicationListener.onCamelContextStarted - Starting CamelMainRunController to ensure the main thread keeps running
+08-11-2020 15:26:11.568 [main] INFO  o.a.c.i.e.InternalRouteStartupManager.log - Route: route1 started and consuming from: file://data/inbox
+08-11-2020 15:26:11.573 [main] INFO  o.a.c.i.engine.AbstractCamelContext.doStartContext - Total 1 routes, of which 1 are started
+08-11-2020 15:26:11.574 [main] INFO  o.a.c.i.engine.AbstractCamelContext.doStartContext - Apache Camel 3.5.0 (camel-1) started in 0.034 seconds
+08-11-2020 15:26:11.579 [main] INFO  c.l.c.s.LearnCamelSpringApplication.logStarted - Started LearnCamelSpringApplication in 6.884 seconds (JVM running for 9.051)
+08-11-2020 15:26:19.278 [Camel (camel-1) thread #1 - file://data/inbox] INFO  route1.log - What is inside in this file?:: transactionType,id,name,jobdesc,hiredate
+UPDATE,4,,,27-08-2016
+UPDATE,5,,,22-02-2020
+
+
+08-11-2020 15:26:19.282 [Camel (camel-1) thread #1 - file://data/inbox] INFO  route1.log - What enviroment this app using?:: this app is running in dev environment.

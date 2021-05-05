@@ -1,0 +1,34 @@
+spring:
+ profiles:
+  active: prod
+
+
+---
+spring:
+ profiles: dev
+
+fromRoute: file:data/inbox?delete=true
+toRoute1: file:data/outbox
+message: Application running from dev environment.
+
+
+
+
+---
+spring:
+ profiles: prod
+
+fromRoute: file:data/inbox?delete=true
+toRoute1: file:data/outbox
+message: Application running from prod environment.
+
+
+
+---
+spring:
+ profiles: stage
+
+fromRoute: file:data/inbox?delete=true
+toRoute1: file:data/outbox
+message: Application running from stage environment.
+
